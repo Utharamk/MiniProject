@@ -119,6 +119,8 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'utharamk13@gmail.com'
 EMAIL_HOST_PASSWORD = 'bbyl qhtn bbgh wnyu'
 DEFAULT_FROM_EMAIL = 'utharamk13k@gmail.com'
+STRIPE_SECRET_KEY = 'sk_test_51QmqOdDsxCRtWOy0e94yWEetEeyvbSZrHHkJlDrCfqT0krFf96UO0eg1oXkm462TYTUvzSXUWlphfg8IV9uL4Fwt00yTyYyyxN'
+STRIPE_PUBLISHABLE_KEY = 'pk_test_51QmqOdDsxCRtWOy0oROcoO83uyuWKqzHvXw25PgljgRESAVYXmXAPKsl9E6iyvGD9YdgM3mllQDTauR8xoJJDcxt006XTeZvq5'
 
 
 # Static files (CSS, JavaScript, Images)

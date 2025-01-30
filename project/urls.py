@@ -30,6 +30,8 @@ urlpatterns = [
     path('userhome',views.user_home,name='userhome'),
     path('viewuser',views.view_user,name='viewuser'),
     path('logout',views.logout_view,name='logout'),
+    path('booking',views.booking,name='booking'),
+    path('userviewbooking',views.user_view_booking,name='userviewbooking'),
 
     path('resetpassword',views.password_reset_request,name='resetpassword'),
     path('verifyotp',views.verify_otp,name='verifyotp'),
@@ -47,7 +49,10 @@ urlpatterns = [
     path('userdetails',views. user_details,name='userdetails'),
     path('viewhall',views.view_hall,name='viewhall'),
     path('addhall',views.add_hall,name='addhall'),
+    path('adminviewbooking',views.admin_view_booking,name='adminviewbooking'),
+    path('acceptrejectbooking/<int:id>',views.accept_reject_booking,name='acceptrejectbooking'),
     
 ]
+
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
